@@ -11,11 +11,9 @@
 CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:N
 
 # Vulnerability Testing / Recreation Phase 
-
-Recommended to test on Kali Linux 
-- 	Install the required package with <b>pip install websocket-client</b> command
-- 	Then send the file to the target computer and let the target click on the file.
-
+- Enter the command “responder -I eth0 -v” via Kali Linux
+- Change the IP address in the theme file
+- Run the “theme” file on Windows Server
 
 # Finding Vulnerability 
 
